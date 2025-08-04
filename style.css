@@ -44,28 +44,43 @@ body {
 /* Section 1 */
 .section-1 {
   display: flex;
-  padding: 5rem;
+  padding: 10rem;
   background-color: #1f2937;
+  gap: 2rem;
 }
 .section-1 .left-side {
   display: flex;
   flex-direction: column;
   flex: 1;
+  gap: 1rem;
 }
 .section-1 .left-side h1 {
   font-size: 3rem;
   color: #f9faf8;
   font-weight: 900;
+  margin: 0rem;
 }
 .section-1 .left-side p {
   font-size: 1.125rem;
   color: #e5e7eb;
+  margin: 0rem;
+}
+.section-1 .left-side button {
+  background-color: #3882f6;
+  width: 15ch;
+  flex-basis: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.section-1 .left-side button a {
+  text-decoration: none;
+  color: #f9faf8;
 }
 .section-1 .right-side {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e5e7eb;
+  background-color: grey;
   color: white;
 }
