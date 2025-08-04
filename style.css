@@ -7,6 +7,30 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 3rem;
+  align-items: center;
+}
+.links {
+  list-style-type: none;
+  display: flex;
+  margin: 0rem;
+  padding: 0rem;
+  gap: 1.5rem;
+}
+.header a {
+  color: #f9faf8;
+  text-decoration: none;
 }
