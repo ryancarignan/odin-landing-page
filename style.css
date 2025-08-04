@@ -41,3 +41,31 @@ body {
 .header a {
   text-decoration: none;
 }
+/* Section 1 */
+.section-1 {
+  display: flex;
+  padding: 5rem;
+  background-color: #1f2937;
+}
+.section-1 .left-side {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.section-1 .left-side h1 {
+  font-size: 3rem;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.section-1 .left-side p {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+}
+.section-1 .right-side {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  color: white;
+}
