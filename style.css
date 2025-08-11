@@ -148,3 +148,42 @@ body {
   font-weight: 700;
   font-size: 1.125rem;
 }
+/* Section 4 */
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-4 .call-to-action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10rem;
+  flex-basis: 60rem;
+  flex-shrink: 1;
+  margin: 8rem 4rem;
+  border-radius: 0.4rem;
+}
+.section-4 .call-to-action .left-side h3 {
+  font-size: 1.5rem;
+  color: #e5e7eb;
+  margin: 0rem;
+  margin-bottom: 0.25rem;
+}
+.section-4 .call-to-action .left-side p {
+  color: #e5e7eb;
+  margin: 0rem;
+}
+.section-4 .call-to-action button {
+  background-color: #3882f6;
+  height: 2rem;
+  flex-basis: 15ch;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+.section-4 .call-to-action button a {
+  text-decoration: none;
+  color: #f9faf8;
+  font-weight: 700;
+}
