@@ -117,3 +117,34 @@ body {
   height: 11rem;
   width: 100%;
 }
+/* Section 3 */
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+  background-color: #e5e7eb;
+}
+.section-3 .quote-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 86ch;
+  background-color: #e5e7eb;
+}
+.section-3 .quote-block .quote {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 2.25rem;
+  color: #1f2937;
+  margin: 0rem;
+}
+.section-3 .quote-block .author {
+  text-align: right;
+  color: #1f2937;
+  margin: 0rem;
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
