@@ -75,6 +75,7 @@ body {
 .section-1 .left-side button a {
   text-decoration: none;
   color: #f9faf8;
+  font-weight: 700;
 }
 .section-1 .right-side {
   flex: 1;
