@@ -188,3 +188,14 @@ body {
   color: #f9faf8;
   font-weight: 700;
 }
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  font-size: 1.125rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
