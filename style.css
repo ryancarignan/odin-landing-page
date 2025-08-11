@@ -21,9 +21,18 @@ body {
 .header {
   background-color: #1f2937;
   display: flex;
-  justify-content: space-evenly;
-  flex-basis: 3rem;
   align-items: center;
+  justify-content: center;
+  height: 4rem;
+  padding: 0rem 1.5rem;
+}
+.header .wrapper {
+  display: flex;
+  max-width: 60rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  flex-grow: 1;
 }
 .logo {
   font-size: 1.5rem;
@@ -46,10 +55,15 @@ body {
 
 /* Section 1 */
 .section-1 {
+  padding: 10rem 1.5rem;
   display: flex;
-  padding: 10rem;
+  justify-content: center;
   background-color: #1f2937;
   gap: 2rem;
+}
+.section-1 .left-side,
+.section-1 .right-side {
+  max-width: 29rem;
 }
 .section-1 .left-side {
   display: flex;
@@ -94,6 +108,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0rem 1.5rem;
   padding-block-end: 4.5rem;
 }
 .section-2 h2 {
@@ -103,11 +118,13 @@ body {
   padding: 1.125rem
 }
 .section-2 .bottom-side {
+  max-width: 60rem;
   display: flex;
+  flex-shrink: 1;
+  gap: 1rem;
+  justify-content: space-between;
   font-size: 1.125rem;
   color: #4b5563;
-  justify-content: center;
-  gap: 4.5rem;
 }
 .section-2 .image-and-text-block {
   display: flex;
@@ -130,13 +147,15 @@ body {
   align-items: center;
   height: 25rem;
   background-color: #e5e7eb;
+  padding: 0rem 1.5rem;
 }
 .section-3 .quote-block {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-basis: 86ch;
+  /* flex-basis: 86ch; more like in example */
+  max-width: 60rem; 
   background-color: #e5e7eb;
 }
 .section-3 .quote-block .quote {
@@ -160,6 +179,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0rem 1.5rem;
 }
 .section-4 .call-to-action {
   background-color: #3882f6;
@@ -169,9 +189,13 @@ body {
   height: 10rem;
   flex-basis: 60rem;
   flex-shrink: 1;
-  margin: 8rem 4rem;
+  margin: 8rem 0rem;
   border-radius: 0.4rem;
 }
+/* call to action shrinking */
+.section-4 .call-to-action .left-side {flex-shrink: 2;}
+.section-4 .call-to-action .right-side {flex-shrink: 1;}
+
 .section-4 .call-to-action .left-side h3 {
   font-size: 1.5rem;
   color: #e5e7eb;
