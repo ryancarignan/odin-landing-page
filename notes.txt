@@ -1,0 +1,3 @@
+TODO: add media query to stack content like in section 1 + 2 
+via flexbox wrapping when below a certain max-width
+(like phone screen width)
